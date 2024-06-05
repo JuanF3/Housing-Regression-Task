@@ -19,4 +19,30 @@ The project is based on the well-known "California Housing" dataset, which conta
 
   ## Methodology
 
-  
+1. Data Exploration and Preprocessing:
+* Descriptive analysis of dataset features.
+* Handling missing values and outliers.
+* Encoding categorical variables and scaling numerical features.
+* Correlation analysis to identify relationships between variables.
+
+2.Modeling:
+* Implementation of various machine learning algorithms, including:
+* Linear Regression.
+* Random Forest Regressor.
+* Support Vector Regressor (SVR) with different kernels (linear, polynomial, RBF).
+* Hyperparameter tuning using techniques like Grid Search and Random Search.
+* Model evaluation through cross-validation.
+
+3.Evaluation and Validation:
+* Using metrics such as RMSE (Root Mean Squared Error), to assess model accuracy.
+* Splitting the dataset into training and testing subsets to validate the model’s generalization ability.
+
+4.Optimization and Improvement:
+* Additional testing with different hyperparameter configurations.
+* Evaluating feature importance to enhance model interpretability.
+
+### Project Conclusion
+
+In this project, several machine learning algorithms were implemented for the regression task, with Random Forest emerging as the most effective model. However, to further improve the performance, additional tests with SVM (Support Vector Machine) could be conducted. Moreover, reducing features based on their importance and exploring different hyperparameter options would also be beneficial.
+
+Work was not continued due to the long execution times of the scripts, limited by the available hardware capacity. In future projects, cloud computing will be utilized to improve execution times and optimize model performance.
